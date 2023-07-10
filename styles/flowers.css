@@ -1,0 +1,51 @@
+/*common shared style*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* head related style */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    margin: 197px 97px 147px 240px;
+}
+
+.banner .profile-pic {
+    width: 635px;
+    height: 70vh;
+    flex-shrink: 0;
+    margin: 50px 240px 0px 97px;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* common button style */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 30px;
+}
