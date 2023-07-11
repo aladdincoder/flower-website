@@ -103,7 +103,7 @@ body {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
-    margin: 0px 240px 0px 300px;
+    margin: 128px 240px 0px 300px;
 }
 
 .service {
@@ -118,7 +118,12 @@ body {
     background: rgba(229, 84, 115, 0.05);
 }
 .hot-content{
-    padding: 100px 430px 100px 423px;
+    padding: 100px 430px 100px 450px;
     display: flex;
     align-items: center;
+    margin-top: 128px;
+    justify-content: space-between;
+}
+.off{
+    color: #E55473;
 }
