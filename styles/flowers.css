@@ -105,7 +105,20 @@ body {
     display: flex;
     margin: 0px 240px 0px 300px;
 }
-.service{
+
+.service {
     padding: 86px 232px 146px 317px;
     gap: 24px;
+}
+
+
+/*hot deal style */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-content{
+    padding: 100px 430px 100px 423px;
+    display: flex;
+    align-items: center;
 }
