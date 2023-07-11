@@ -157,11 +157,13 @@ body {
 .bg-img {
     border-radius: 8px;
     background-image: url('../images/Rectangle\ 9.png');
-    width: 1480px;
+    width: 1490px;
     height: 449px;
     margin: 128px 140px 128px 510px;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
 .bg-h {
@@ -178,13 +180,24 @@ body {
     padding: 0px 580px 48px 580px;
 }
 
-input {
-    
+.search-bar input{
+    display: inline;
+}
+.email-text{
     background: #FFF;
     width: 700px;
     height: 64px;
+    margin: 0px 0px 121px 287px;
     color: rgba(39, 39, 39, 0.60);
-    border: 0px;
-
-    
+    border: 0px;
+}
+.btn-submit{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 30px;
+    margin-left: 0px;
 }
