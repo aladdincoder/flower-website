@@ -49,3 +49,51 @@ body {
     font-weight: 700px;
     padding: 15px 30px;
 }
+
+/*main section style*/
+main{
+
+}
+.common {
+    text-align: center;
+}
+
+.common-h {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0%;
+}
+
+.common-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.container{
+  display: flex;
+}
+.flower{
+    padding: 30px;
+    gap: 24px
+}
+
+
+.pink-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 76px;
+}
+
+.red-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+}
+
+.yolo-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
