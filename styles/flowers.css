@@ -122,8 +122,31 @@ body {
     display: flex;
     align-items: center;
     margin-top: 128px;
+    margin-bottom: 128px;
     justify-content: space-between;
 }
 .off{
     color: #E55473;
+}
+.insta{
+    text-align: center;
+}
+.last-flower {
+    display: flex;
+    margin: 0px 240px 0px 500px;
+}
+.pink-rose{
+    margin-right: 24px;
+}
+.mix-rose{
+    margin-right: 24px;
+}
+.cup-rose{
+    margin-right: 24px;
+}
+
+
+/* background image */
+.bg-img{
+   
 }
