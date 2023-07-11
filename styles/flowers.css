@@ -73,10 +73,12 @@ main{
 }
 .container{
   display: flex;
+  margin: 0px 240px 0px 500px;
 }
 .flower{
     padding: 30px;
-    gap: 24px
+    gap: 24px;
+
 }
 
 
