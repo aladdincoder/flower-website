@@ -117,7 +117,8 @@ body {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
-.hot-content{
+
+.hot-content {
     padding: 100px 430px 100px 450px;
     display: flex;
     align-items: center;
@@ -125,28 +126,65 @@ body {
     margin-bottom: 128px;
     justify-content: space-between;
 }
-.off{
+
+.off {
     color: #E55473;
 }
-.insta{
+
+.insta {
     text-align: center;
 }
+
 .last-flower {
     display: flex;
     margin: 0px 240px 0px 500px;
 }
-.pink-rose{
+
+.pink-rose {
     margin-right: 24px;
 }
-.mix-rose{
+
+.mix-rose {
     margin-right: 24px;
 }
-.cup-rose{
+
+.cup-rose {
     margin-right: 24px;
 }
 
 
 /* background image */
-.bg-img{
-   
+.bg-img {
+    border-radius: 8px;
+    background-image: url('../images/Rectangle\ 9.png');
+    width: 1480px;
+    height: 449px;
+    margin: 128px 140px 128px 510px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-h {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 122px 500px 0px 500px
+}
+
+.bg-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;;
+    padding: 0px 580px 48px 580px;
+}
+
+input {
+    
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    border: 0px;
+
+    
 }
